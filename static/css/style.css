@@ -1,3 +1,23 @@
-body {
-    background-color: red;
-} 
+
+<!-- Navigation bar --!>
+
+.nav-bar{
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.nav-bar-left{
+    float: left;
+}
+.nav-bar-right{
+    float: right;
+}
+
+.blog-title{
+    text-align: center;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    display: inline;
+}
