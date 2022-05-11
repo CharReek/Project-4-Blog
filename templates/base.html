@@ -7,35 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="nav-bar">
-            <ul class="nav-bar-left">
-                <li>
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Look Book</a>
-                </li>
+        <div class="header">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lookbook</a></li>
             </ul>
-            <div class="blog-title">
-                logo
-            </div>
-            <ul class="nav-bar-right">
-                <li>
-                    <a class="nav-link" href="#">Sign In</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#">Register</a>
-                </li>
+            <h1> Logo </h1>
+            <ul>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Register</a></li>
             </ul>
-
-
         </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
+
+    <footer class="footer"> 
+        <ul>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Tiktok</a></li>
+            <li><a href="">Pinterest</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
