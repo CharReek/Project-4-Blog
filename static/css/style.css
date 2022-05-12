@@ -6,7 +6,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.5px solid #dfcdd3;
+    border-bottom: 0.5px solid black;
     width: 100%;
     height: 80px;
 }
@@ -17,7 +17,7 @@ body{
 }
 
 .header a {
-    color: #4e4b58;
+    color: black;
 }
 
 /* blog contatiner */
@@ -33,9 +33,11 @@ body{
 .card-title{
     text-align: center;
 }
-.card-body hr {
-    color: #dfcdd3;
+
+.card-text{
+    text-align: center;
 }
+
 /* Footer */
 
 .footer{
@@ -44,8 +46,8 @@ body{
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #dfcdd3;
     padding: 40px;
+    border-top: 1px solid black;
 }
 .footer li{
     display: inline;
