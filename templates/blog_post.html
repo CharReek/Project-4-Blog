@@ -4,43 +4,43 @@
 
 <div class="container-fluid">
     <div class="row">
-
-        <!-- Blog Entries Column -->
-        <div class="col-12 mt-3 left">
-            <div class="row">
+        <div class="col-12">
+            <div class="row blog-layout-main">
                 {% for post in post_list %}
                     <div class="col-md-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 border-0">
                             <div class="card-body">
-                                <div class="image-container">
+                                <!-- <div class="image-container">
                                     {% if "placeholder" in post.featured_image.url %}
                                     <img class="card-img-top"
                                         src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                     {% else %}
                                     <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                     {% endif %}
-                                    <div class="image-flash">
-                                        <p class="author">Author: {{ post.author }}</p>
-                                    </div>
-                                </div>
+                                </div> -->
                                 <a href="{% url 'post_detail' post.slug  %}"  class="post-link">
                                     <h2 class="card-title">{{ post.title }}</h2>
                                     <p class="card-text">{{ post.excerpt }}</p>
                                 </a>
+                                <div class="image-container">
+                                    <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                                </div>
                                 <hr />
-                                <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
-                                    {{ post.number_of_likes }}</p>
+                                <p class="card-text text-muted h6">{{ post.created_on}}
                             </div>
                         </div>
                     </div>
-                {% if forloop.counter|divisibleby:3 %}
+                {% if forloop.counter|divisibleby:2 %}
                 </div>
-                <div class="row">
+                <div class="row blog-layout">
                 {% endif %}
                 {% endfor %}
 
             </div>
         </div>
+    </div>
+    <div class="line-break">
+        <hr />
     </div>
     {% if is_paginated %}
     <nav aria-label="Page navigation">

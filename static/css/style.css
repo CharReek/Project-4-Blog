@@ -6,7 +6,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.5px solid #4e4b58;
+    border-bottom: 0.5px solid #dfcdd3;
     width: 100%;
     height: 80px;
 }
@@ -20,6 +20,22 @@ body{
     color: #4e4b58;
 }
 
+/* blog contatiner */
+.blog-layout-main, 
+.blog-layout{
+    justify-content: center;
+}
+
+.blog-layout-main{
+    padding: 50px 10px;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-body hr {
+    color: #dfcdd3;
+}
 /* Footer */
 
 .footer{
@@ -28,7 +44,7 @@ body{
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #4e4b58;
+    background-color: #dfcdd3;
     padding: 40px;
 }
 .footer li{
@@ -37,6 +53,19 @@ body{
 }
 
 .footer a{
-    color: #fdedee;
+    color: black;
     padding-left: 40px;
+}
+
+/* login/ logout / sign up*/
+
+.login,
+.logout,
+.signup {
+    text-align: center;
+    padding: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #97afaf;
+
 }
