@@ -1,5 +1,14 @@
 body{
     font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+}
+h1, 
+h2, 
+h5{
+    font-family:'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+
 }
 
 /* cross page css*/
@@ -58,7 +67,7 @@ body{
 /* Footer */
 
 .footer{
-    position: sticky;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

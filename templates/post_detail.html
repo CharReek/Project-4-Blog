@@ -51,12 +51,12 @@
                 {% for comment in comments %}
                 <div class="comment-container">
                     {{ comment.body | linebreaks }} 
-                    <p >
+                    <h5 >
                         {{ comment.name }}
                         <span>
                             {{ comment.created_on }}
                         </span>
-                    </p>
+                    </h5>
                 </div>
                 {% endfor %}
 
