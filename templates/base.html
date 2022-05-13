@@ -28,7 +28,7 @@
                             <a class="nav-link" href="{% url 'home' %}"> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">LookBook</a>
+                            <a class="nav-link" href="{% url 'home' %}">LookBook</a>
                         </li>
                         {% if user.is_authenticated %}
                         <li class="nav-item">
@@ -49,8 +49,12 @@
     </header>
 
     <main>
+        {% block post %}
+        <!-- blog posts will show here -->
+        {% endblock post %}
+
         {% block content %}
-        <!-- Content Goes here -->
+        <!-- blog posts will show here -->
         {% endblock content %}
     </main>
 

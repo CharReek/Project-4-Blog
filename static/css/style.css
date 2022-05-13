@@ -2,6 +2,14 @@ body{
     font-size: 20px;
 }
 
+/* cross page css*/
+
+.submit-btn{
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
 /* Navigation*/
 .header{
     display: flex;
@@ -100,11 +108,6 @@ textarea#id_body{
     text-align: center;
 }
 
-.comment-submit-btn{
-    border-radius: 25px;
-    border: 1px solid black;
-    margin: 20px;
-}
 
 label.requiredField{
    display: none; 
@@ -117,4 +120,14 @@ label.requiredField{
     border: 1px solid black;
     margin: 10px;
     border-radius: 10px;
+}
+
+/* sign up page*/
+
+.signup-btn{
+    padding: 10px 20px;
+}
+
+form#signup_form{
+  padding-top: 10px;  
 }
