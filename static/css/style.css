@@ -37,20 +37,26 @@ body{
 .card-text{
     text-align: center;
 }
-.card-body{
+.blog-post-home{
     border-bottom: 1px solid black;
 }
+.image-container img{
+    height: 500px;
+}
 
+.swiper{
+    justify-content: center;
+}
 /* Footer */
 
 .footer{
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 60px;
-    padding: 40px;
     border-top: 1px solid black;
+    background-color: white;
 }
 .footer li{
     display: inline;
@@ -71,6 +77,44 @@ body{
     padding: 60px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #97afaf;
 
+}
+
+/* posts */
+
+.post-header{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Comments */ 
+textarea#id_body{
+    height: 50px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.comment-title{
+    justify-content: center;
+    text-align: center;
+}
+
+.comment-submit-btn{
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+label.requiredField{
+   display: none; 
+   margin: 30px 10px;
+}
+.comment-section{
+    text-align: center;
+}
+.comment-container{
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
 }
