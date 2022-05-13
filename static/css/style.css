@@ -103,6 +103,9 @@ h5{
     margin-top: 50px;
     text-align: center;
 }
+.post-link{
+    color: black;
+}
 
 /* Comments */ 
 textarea#id_body{
