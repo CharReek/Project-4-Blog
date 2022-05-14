@@ -58,7 +58,10 @@ h5{
     border-bottom: 1px solid black;
 }
 .image-container img{
-    height: 500px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    border: 1px solid black;
 }
 
 .swiper{
