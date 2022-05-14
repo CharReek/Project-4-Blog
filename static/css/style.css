@@ -17,6 +17,8 @@ h5{
     border-radius: 25px;
     border: 1px solid black;
     margin: 20px;
+    background-color: #ccd5ae;
+    padding: 10px;
 }
 
 /* Navigation*/
@@ -48,12 +50,19 @@ h5{
 }
 
 .card-title{
-    text-align: center;
+    text-align: center; 
+    text-decoration: underline solid #ccd5ae;
+    margin: 25px 0px;
 }
 
 .card-text{
     text-align: center;
+    text-decoration: underline solid #ccd5ae;
 }
+.card-text:last-child {
+    margin-bottom: 15px;
+}
+
 .blog-post-home{
     border-bottom: 1px solid black;
 }
@@ -95,9 +104,11 @@ h5{
 .signup {
     text-align: center;
     padding: 60px;
-    margin-top: 50px;
     margin-bottom: 50px;
+}
 
+.acounts-titles{
+    text-decoration: underline solid #ccd5ae;
 }
 
 /* posts */
@@ -138,10 +149,6 @@ label.requiredField{
 }
 
 /* sign up page*/
-
-.signup-btn{
-    padding: 10px 20px;
-}
 
 form#signup_form{
   padding-top: 10px;  
