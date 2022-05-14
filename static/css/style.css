@@ -21,6 +21,11 @@ h5{
     padding: 10px;
 }
 
+.titles{
+    text-decoration: underline solid #ccd5ae;
+}
+
+
 /* Navigation*/
 .header{
     display: flex;
@@ -107,7 +112,7 @@ h5{
     margin-bottom: 50px;
 }
 
-.acounts-titles{
+.titles{
     text-decoration: underline solid #ccd5ae;
 }
 
@@ -132,6 +137,7 @@ textarea#id_body{
 .comment-title{
     justify-content: center;
     text-align: center;
+    text-decoration: underline solid #ccd5ae;
 }
 
 
