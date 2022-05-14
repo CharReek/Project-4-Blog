@@ -19,6 +19,5 @@ style log out page
 
 Weekend to do list 
 add look book page
-write up 4 posts 
 get images 
-pick font & colour 
+pick colour 
