@@ -44,6 +44,7 @@ h5{
     color: black;
 }
 
+
 /* blog contatiner */
 .blog-layout-main, 
 .blog-layout{
@@ -69,7 +70,7 @@ h5{
 }
 
 .blog-post-home{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black
 }
 .image-container img{
     width: 100%;
@@ -102,13 +103,16 @@ h5{
     padding-left: 40px;
 }
 
+.social{
+
+}
 /* login/ logout / sign up*/
 
 .login,
 .logout,
 .signup {
     text-align: center;
-    padding: 60px;
+    padding: 40px;
     margin-bottom: 50px;
 }
 
@@ -116,6 +120,27 @@ h5{
     text-decoration: underline solid #ccd5ae;
 }
 
+
+form#signup_form{
+    padding-top: 10px;  
+} 
+
+form#signup_form p{
+    margin: 35px;
+} 
+
+form.login p {
+    margin: 35px;
+}
+
+label {
+    margin-right: 30px;
+}
+
+.signin-text,
+.signup-text{
+    margin-top: 40px;
+}
 /* posts */
 
 .post-header{
@@ -137,9 +162,8 @@ textarea#id_body{
 .comment-title{
     justify-content: center;
     text-align: center;
-    text-decoration: underline solid #ccd5ae;
+    text-decoration: underline solid 1px #ccd5ae;
 }
-
 
 label.requiredField{
    display: none; 
@@ -154,8 +178,28 @@ label.requiredField{
     border-radius: 10px;
 }
 
+.lookbook-column{
+    text-align: center;
+}
+.lookbook-column p{
+    margin: 20px 0px;
+}
+.lookbook-column h5{
+    text-decoration: underline solid 1px #ccd5ae;
+}
+
 /* sign up page*/
 
 form#signup_form{
   padding-top: 10px;  
+}
+
+
+/* pseudo classes */
+.social:hover{
+    text-decoration: underline 3px solid #ccd5ae;
+}
+
+.nav-link:hover{
+    text-decoration: underline 3px solid #ccd5ae;
 }
