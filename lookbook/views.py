@@ -6,14 +6,7 @@ from .models import Post, Image
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_on')
-    template_name = 'blog_post.html'
-    paginate_by = 4
-
-
-class ImageList(generic.ListView):
-    model = Post
-    queryset = Post.objects.order_by('-created_on')
-    template_name = 'image_slider.html'
+    template_name = 'lookbook.html'
     paginate_by = 4
 
 
@@ -36,7 +29,6 @@ class PostDetail(View):
                 "comments": comments,
                 "commented": False,
                 "liked": liked,
-                "comment_form": CommentForm,
 
             },
         )
