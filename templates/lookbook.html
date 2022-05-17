@@ -3,33 +3,42 @@
 {% block content %}
 
 <div class="container-fluid">
-    <div class="row content">
-        {% for post in post_list %}
-        <div class="col-sm-6 lookbook">
-            <a href="{% url 'lookbook_post_detail' post.slug  %}"  class="post-link">
-                <div class="image-container">
-                    <img class="card-img-top " src="{{ post.features_image.url }}">
-                </div>
-            </a>
-        </div>
-        {% if forloop.counter|divisibleby:1 %}
-        <div class="col-sm-6">
-            <div>
-                <div class="right lookbook">
-                </div>
-            </div>
-        {% else %}
-            <div class="row">
-                <div class="col-sm-12 lookbook" >
-                    <div class="right">
-                        <h1>right 2</h1>
+    <div class="row">
+        <div class="col-12">
+            <div class="row blog-layout-main">
+                {% for post in post_list %}
+                    <div class="col-md-3">
+                        <div class="card mb-3 border-0">
+                            <div class="card-body blog-post-home">
+                                <a href="{% url 'lookbook_post_detail' post.slug  %}"  class="post-link">
+                                    <div class="image-container">
+                                        <img class="card-img-top " src="{{ post.features_image.url }}">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
+                {% if forloop.counter|divisibleby:3 %}
                 </div>
+                <div class="row blog-layout">
+                {% endif %}
+                {% endfor %}
+
             </div>
         </div>
-        {% endif %}
-        {% endfor %}
-    </div>
+    {% if is_paginated %}
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+            <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+            {% endif %}
+            {% if page_obj.has_next %}
+            <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
 </div>
 
 {%endblock%}

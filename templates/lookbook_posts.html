@@ -1,0 +1,75 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load crispy_forms_tags %}
+
+
+<div class="masthead">
+    <div class="container">
+        <div class="row g-0 post-header">
+            <h1 class="post-title titles">
+                {{ post.title }}</h1>
+            <h5 class="post-subtitle">{{ post.author }} | {{ post.created_on }}</h5>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col m-4 pb-3">
+        <div class="row justify-content-start">
+            <!-- <div class="card-body"> -->
+                <div class="col-sm-12 align-self-center">
+                    <p class="card-text">
+                        {{ post.content | safe }}
+                    </p>
+                </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8  mb-4  mt-3">
+            <div class="card-body comment-section">
+                <h5 class="comment-title">Comments:</h5>
+                {% for comment in comments %}
+                <div class="comment-container">
+                    {{ comment.body | linebreaks }} 
+                    <h5 >
+                        {{ comment.name }}
+                        <span>
+                            {{ comment.created_on }}
+                        </span>
+                    </h5>
+                </div>
+                {% endfor %}
+
+                {% if commented %}
+                <div class="alert alert-success" role="alert">
+                    Your comment is awaiting approval
+                </div>
+                {% else %}
+
+                {% if user.is_authenticated %}
+                <h5>Share your thoughts:</h5>
+                <form method="post">
+                    <div class="crispy_form">
+                        {{ comment_form | crispy }}
+                        {% csrf_token %}
+                    </div>
+                    <button type="submit" class="btn btn-signup submit-btn">Submit</button>
+                </form>
+                {% endif %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 mt-3 lookbook-column">
+            <h5> Want to keep up to date with whats goign on? </h5>
+            <p> Check out or blog posts</p>
+            <button class="btn submit-btn">Blog Posts</button>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

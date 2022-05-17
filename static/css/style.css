@@ -207,9 +207,13 @@ form#signup_form{
 /* lookbook */
 
 .row.content{
-    height: 100px;
+    height: 500px;
+    width: auto;
 }
 .lookbook{
     background-color: #ccd5ae;
     border: 1px black solid;
+}
+.right{
+    height: 250px;
 }
