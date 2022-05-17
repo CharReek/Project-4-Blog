@@ -203,3 +203,13 @@ form#signup_form{
 .nav-link:hover{
     text-decoration: underline 3px solid #ccd5ae;
 }
+
+/* lookbook */
+
+.row.content{
+    height: 500px;
+}
+.lookbook{
+    background-color: #ccd5ae;
+    border: 1px black solid;
+}
