@@ -11,14 +11,14 @@
                     <img class="card-img-top " src="{{ post.features_image.url }}">
                 </div>
             </a>
-        {% if forloop.counter|divisibleby:1 %}
         </div>
+        {% if forloop.counter|divisibleby:1 %}
         <div class="col-sm-6">
             <div>
                 <div class="right lookbook">
-                    <h1>Right</h1>
                 </div>
             </div>
+        {% else %}
             <div class="row">
                 <div class="col-sm-12 lookbook" >
                     <div class="right">
