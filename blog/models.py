@@ -12,7 +12,7 @@ class Post(models.Model):
                                related_name='blog_post')
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
-    features_image = CloudinaryField('image', default='placeholder')
+    features_image = CloudinaryField('image')
     excerpt = models.TextField(blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
