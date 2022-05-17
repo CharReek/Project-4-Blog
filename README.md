@@ -21,3 +21,8 @@ Weekend to do list
 add look book page
 get images 
 pick colour 
+
+
+Sugar and spice 
+peach please
+self love club 
