@@ -10,12 +10,10 @@
                     <div class="col-md-4">
                         <div class="card mb-4 border-0">
                             <div class="card-body blog-post-home">
-                                <div class="image-container">
-                                    <img class="card-img-top " src="{{ post.features_image.url }}">
-                                </div>
                                 <a href="{% url 'post_detail' post.slug  %}"  class="post-link">
-                                    <h2 class="card-title">{{ post.title }}</h2>
-                                    <p class="card-text">Read Post</p>
+                                    <div class="image-container">
+                                        <img class="card-img-top " src="{{ post.features_image.url }}">
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -43,4 +41,4 @@
     {% endif %}
 </div>
 
-{% endblock %}
+{%endblock%}
