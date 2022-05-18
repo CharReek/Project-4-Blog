@@ -217,3 +217,8 @@ form#signup_form{
 .right{
     height: 250px;
 }
+
+.lookbook-image{
+    height: 75%;
+    width: auto;
+}

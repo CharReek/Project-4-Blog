@@ -10,7 +10,7 @@
                 {{ post.title }}</h1>
             <h5 class="post-subtitle">{{ post.author }} | {{ post.created_on }}</h5>
             <a href="{% url 'lookbook_post_detail' post.slug  %}"  class="post-link">
-                <div class="image-container">
+                <div class="lookbook_image">
                     <img class="card-img-top " src="{{ post.features_image.url }}">
                 </div>
             </a>
