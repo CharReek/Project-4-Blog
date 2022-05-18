@@ -9,6 +9,11 @@
             <h1 class="post-title titles">
                 {{ post.title }}</h1>
             <h5 class="post-subtitle">{{ post.author }} | {{ post.created_on }}</h5>
+            <a href="{% url 'lookbook_post_detail' post.slug  %}"  class="post-link">
+                <div class="image-container">
+                    <img class="card-img-top " src="{{ post.features_image.url }}">
+                </div>
+            </a>
         </div>
     </div>
 </div>
@@ -67,7 +72,8 @@
         <div class="col-md-4 mb-4 mt-3 lookbook-column">
             <h5> Want to keep up to date with whats goign on? </h5>
             <p> Check out or blog posts</p>
-            <button class="btn submit-btn">Blog Posts</button>
+            <button class="btn submit-btn"><a href="{% url 'home' %}"> Home</a>
+            </button>
         </div>
     </div>
 </div>
