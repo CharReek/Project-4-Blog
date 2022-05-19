@@ -198,28 +198,6 @@ label.requiredField{
 form#signup_form{
   padding-top: 10px;  
 }
-
-
-/* pseudo classes */
-.social:hover{
-    text-decoration: underline 3px solid #ccd5ae;
-}
-
-.nav-link:hover{
-    text-decoration: underline 3px solid #ccd5ae;
-}
-a:hover {
-    color: #ccd5ae;
-}
-
-.navbar a:hover {
-    color: #ccd5ae;
-}
-
-.submit-btn:hover{
-    background-color: black;
-    color: #ccd5ae;
-}
 /* lookbook */
 
 .row.content{
@@ -237,6 +215,17 @@ a:hover {
 .card-img, .card-img-top{
     height: 60%;
     width: auto;
+}
+
+/* font awesome*/
+.fa-solid{
+    color: #ccd5ae;
+}
+/* pseudo classes */
+
+.submit-btn:hover{
+    background-color: black;
+    color: #ccd5ae;
 }
 @media only screen and (max-width:575px){
     .header li{
