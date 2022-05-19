@@ -90,9 +90,15 @@ a {
     width: 100%;
     height: auto;
     border: 1px solid black;
-    transition: transform 3.1s ease-out;
+    transition: transform 3.1s;
     opacity: 1;
     /* background-color: rgba(0, 0, 0, 1) */
+}
+.image-container{
+    transition: transform ease-out;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5)
+
 }
 
 .swiper{
@@ -240,8 +246,8 @@ form#signup_form{
     -ms-transform: scale(1.02);
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
-    opacity: 0.8;
-    background-color: rgba(0, 0, 0, 1)
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .post-link:hover{
