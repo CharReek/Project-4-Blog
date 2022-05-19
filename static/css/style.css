@@ -234,6 +234,10 @@ form#signup_form{
     transform: scale(1.05);
 }
 
+.post-link:hover{
+    color: black;
+}
+
 @media only screen and (max-width:575px){
     .header li{
         display: inline;
