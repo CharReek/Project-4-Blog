@@ -11,6 +11,10 @@ h5{
 
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 /* cross page css*/
 
@@ -20,6 +24,7 @@ h5{
     margin: 20px;
     background-color: #ccd5ae;
     padding: 10px;
+    color: black;
 }
 
 .titles{
@@ -106,9 +111,6 @@ h5{
     padding-left: 40px;
 }
 
-.social{
-
-}
 /* login/ logout / sign up*/
 
 .login,
@@ -214,6 +216,10 @@ a:hover {
     color: #ccd5ae;
 }
 
+.submit-btn:hover{
+    background-color: black;
+    color: #ccd5ae;
+}
 /* lookbook */
 
 .row.content{
