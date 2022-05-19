@@ -53,6 +53,12 @@ a {
     text-decoration: underline 3px solid #ccd5ae;
 }
 
+.header-container{
+    padding-top:20px;
+    text-align: center;
+    height: 300px;
+    background-color: #ccd5ae;
+}
 
 /* blog contatiner */
 .blog-layout-main, 
@@ -84,7 +90,9 @@ a {
     width: 100%;
     height: auto;
     border: 1px solid black;
-    transition: transform 3.1s;
+    transition: transform 3.1s ease-out;
+    opacity: 1;
+    /* background-color: rgba(0, 0, 0, 1) */
 }
 
 .swiper{
@@ -229,9 +237,11 @@ form#signup_form{
 }
 
 .image-container img:hover{
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 1)
 }
 
 .post-link:hover{
