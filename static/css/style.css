@@ -84,6 +84,7 @@ a {
     width: 100%;
     height: auto;
     border: 1px solid black;
+    transition: transform 3.1s;
 }
 
 .swiper{
@@ -226,6 +227,13 @@ form#signup_form{
     background-color: black;
     color: #ccd5ae;
 }
+
+.image-container img:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 @media only screen and (max-width:575px){
     .header li{
         display: inline;
