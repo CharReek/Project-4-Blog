@@ -6,23 +6,4 @@ credits -
 code instutute walk through for installing all auth 
 https://djangocentral.com/building-a-blog-application-with-django/ for settign up views 
 
-To do list
-add lookbook page
-get it to show images 
-write up 4 posts 
-get images 
-style sign up page 
-style log in page 
-style log out page 
-
-
-
-Weekend to do list 
-add look book page
-get images 
-pick colour 
-
-
-Sugar and spice 
-peach please
-self love club 
+Damsel in Dior
