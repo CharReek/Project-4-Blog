@@ -65,6 +65,11 @@ a {
 .fa-solid{
     color: #ccd5ae;
 }
+.nav-item a{
+    position:relative;
+    text-decoration: none;
+    color: #ccd5ae;
+}
 /* ------------- Footer ------------- */
 
 .footer{
@@ -247,7 +252,6 @@ label.requiredField{
     color: #ccd5ae;
 }
 
-
 .image-container img:hover{
     -ms-transform: scale(1.02);
     -webkit-transform: scale(1.02);
@@ -266,6 +270,26 @@ label.requiredField{
 .fa-solid:hover{
     color: black;
 }
+
+.nav-item a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.nav-item a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 
 /* ---------------- Media queries -------------*/
 @media only screen and (max-width:575px){
