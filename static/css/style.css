@@ -1,7 +1,7 @@
 body{
     font-size: 20px;
-    font-weight: 200;
     font-family:'Open Sans', sans-serif;
+    font-weight: 300;
 }
 h1, 
 h2, 
@@ -63,10 +63,12 @@ a {
 .nav-item a{
     position:relative;
     text-decoration: none;
-    color: black;
-
+    font-weight: 500;
 }
 
+.navbar-toggler{
+    color:black;
+}
 /* ------------- Footer ------------- */
 
 .footer{
