@@ -13,7 +13,7 @@
             <div class="row blog-layout-main">
                 {% for post in post_list %}
                     <div class="col-md-4">
-                        <div class="card mb-4 border-0" style="height50%;">
+                        <div class="card mb-4 border-0">
                             <div class="card-body blog-post-home">
                                 <div class="image-container">
                                     <img class="card-img-top " src="{{ post.features_image.url }}">
@@ -50,8 +50,8 @@
     </div>
     <div class="swiper">
         <div class="swiper-wrapper">
-            {% for post in post_list %}
-            <div class="swiper-slide"> <img class="card-img-top " src="{{ post.features_image.url }}"></div>
+            {% for image in image_swiper %}
+            <div class="swiper-slide"> <img class="card-img-top " src="{{ post.image_image.url }}"></div>
             {% endfor %}
         </div>
     </div>

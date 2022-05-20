@@ -23,10 +23,3 @@ class CommentAdmin(admin.ModelAdmin):
 
     def approve_comments(self, request, queryset):
         queryset.update(approved=True)
-        
-@admin.register(Image)
-
-class ImageAdmin(admin.ModelAdmin):
-    list_display = ('image_name', 'created_on')
-    list_filter = ('image_name', 'created_on')
-    search_fields = ('image_name', 'created_on')
