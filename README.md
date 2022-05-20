@@ -4,8 +4,14 @@
 
 
 # UX
+
 # Features 
+
 # Future Enhancments 
+There are mutiple features that i would like to add in the future to help improve the functionality of the blog. I would like to add the below: 
+* A Swiper of products that users can view that take users to either the product website or to a blog shop
+
+
 # Technoligies used 
 * HTML 
 * CSS
@@ -16,6 +22,7 @@
 * Font Awesome 
 
 # Testing 
+
 # Deployment 
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
 1. Create the heroku app
