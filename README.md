@@ -7,6 +7,14 @@
 # Features 
 # Future Enhancments 
 # Technoligies used 
+* HTML 
+* CSS
+* Javascript
+* Python 
+* Django 
+* Cloudinary 
+* Font Awesome 
+
 # Testing 
 # Deployment 
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
