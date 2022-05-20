@@ -241,6 +241,10 @@ form#signup_form{
     background-color: black;
     color: #ccd5ae;
 }
+.submit-btn a:hover{
+    color: #ccd5ae;
+}
+
 
 .image-container img:hover{
     -ms-transform: scale(1.02);
