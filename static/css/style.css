@@ -303,7 +303,14 @@ label.requiredField{
     transform-origin: left;
     transform: scaleX(1);
 }
-
+/* ----------- Swiper styling -------- */
+.swiper {
+    width: 70%;
+    height: 500px;
+    background-color: #ccd5ae;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 /* ---------------- Media queries -------------*/
 @media only screen and (max-width:575px){
     .header li{
@@ -311,5 +318,19 @@ label.requiredField{
         padding: 5px;
         text-decoration: none;
     }
+    .login,
+    .logout,
+    .signup{
+        padding: 25px;
+        text-align: center;
+        justify-content: center;
+    }
     
+    form#signup_form {
+    padding: 10px;
+    }
+
+    /* label {
+    margin-right: -20px;
+    } */
 }
