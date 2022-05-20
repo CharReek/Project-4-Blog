@@ -42,3 +42,15 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.name}"
+
+
+class Image(models.Model):
+    image_name = models.CharField(max_length=80)
+    created_on = models.DateTimeField(auto_now_add=True)
+    image = CloudinaryField('image')
+    
+    class Meta:
+        ordering = ['-created_on']
+
+    def __str__(self):
+        return self.image_name
