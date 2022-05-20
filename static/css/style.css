@@ -16,7 +16,10 @@ a {
     text-decoration: none;
 }
 
-/* cross page css*/
+.fa-brands{
+    color: black;
+}
+/* ------------- cross page css ---------------*/
 
 .submit-btn{
     border-radius: 25px;
@@ -32,7 +35,7 @@ a {
 }
 
 
-/* Navigation*/
+/* ------------------ Navigation --------------*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -59,8 +62,31 @@ a {
     height: 300px;
     background-color: #ccd5ae;
 }
+.fa-solid{
+    color: #ccd5ae;
+}
+/* ------------- Footer ------------- */
 
-/* blog contatiner */
+.footer{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid black;
+    background-color: #ccd5ae;
+}
+.footer li{
+    display: inline;
+    text-decoration: none;
+}
+
+.footer a{
+    color: black;
+    padding-left: 40px;
+}
+
+/* ------------ blog contatiner ------------- */
 .blog-layout-main, 
 .blog-layout{
     justify-content: center;
@@ -79,6 +105,7 @@ a {
     text-align: center;
     text-decoration: underline solid #ccd5ae;
 }
+
 .card-text:last-child {
     margin-bottom: 15px;
 }
@@ -86,46 +113,26 @@ a {
 .blog-post-home{
     border-bottom: 1px solid black
 }
+
 .image-container img{
     width: 100%;
     height: auto;
     border: 1px solid black;
     transition: transform 3.1s;
     opacity: 1;
-    /* background-color: rgba(0, 0, 0, 1) */
 }
+
 .image-container{
     transition: transform ease-out;
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5)
-
 }
 
 .swiper{
     justify-content: center;
 }
-/* Footer */
 
-.footer{
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    border-top: 1px solid black;
-    background-color: white;
-}
-.footer li{
-    display: inline;
-    text-decoration: none;
-}
-
-.footer a{
-    color: black;
-    padding-left: 40px;
-}
-
-/* login/ logout / sign up*/
+/* ------------ login/ logout / sign up ------------*/
 
 .login,
 .logout,
@@ -160,7 +167,11 @@ label {
 .signup-text{
     margin-top: 40px;
 }
-/* posts */
+
+form#signup_form{
+    padding-top: 10px;  
+}
+/* ----------- posts ------------ */
 
 .post-header{
     margin-top: 50px;
@@ -170,7 +181,7 @@ label {
     color: black;
 }
 
-/* Comments */ 
+/* ------------------ Comments --------------*/ 
 textarea#id_body{
     height: 50px;
     width: 50%;
@@ -207,12 +218,7 @@ label.requiredField{
     text-decoration: underline solid 1px #ccd5ae;
 }
 
-/* sign up page*/
-
-form#signup_form{
-  padding-top: 10px;  
-}
-/* lookbook */
+/* ------------- lookbook  ---------------*/
 
 .row.content{
     height: 500px;
@@ -231,11 +237,7 @@ form#signup_form{
     width: auto;
 }
 
-/* font awesome*/
-.fa-solid{
-    color: #ccd5ae;
-}
-/* pseudo classes */
+/* -------------- pseudo classes --------------*/
 
 .submit-btn:hover{
     background-color: black;
@@ -257,9 +259,7 @@ form#signup_form{
 .post-link:hover{
     color: black;
 }
-.social:hover{
-    color: #ccd5ae;
-}
+
 .nav-link:hover{
     color: black;
 }
@@ -267,6 +267,7 @@ form#signup_form{
     color: black;
 }
 
+/* ---------------- Media queries -------------*/
 @media only screen and (max-width:575px){
     .header li{
         display: inline;
