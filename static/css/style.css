@@ -132,6 +132,11 @@ a {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5)
 }
+.shop-the-look{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline solid 3px #ccd5ae;
+}
 /* ----------- Swiper styling -------- */
 .swiper {
     width: 70%;
@@ -141,6 +146,11 @@ a {
     margin-bottom: 40px;
     z-index: 0;
 }
+.swiper-button-next,
+.swiper-button-prev{
+    color: #ccd5ae;
+}
+
 
 /* ------------ login/ logout / sign up ------------*/
 
