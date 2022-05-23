@@ -132,6 +132,15 @@ a {
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5)
 }
+/* ----------- Swiper styling -------- */
+.swiper {
+    width: 70%;
+    height: 50%;
+    background-color: #ccd5ae;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    z-index: 0;
+}
 
 /* ------------ login/ logout / sign up ------------*/
 
@@ -302,15 +311,7 @@ label.requiredField{
 .card-title:hover::before{
     transform-origin: left;
     transform: scaleX(1);
-}
-/* ----------- Swiper styling -------- */
-.swiper {
-    width: 70%;
-    height: 50%;
-    background-color: #ccd5ae;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
+} 
 /* ---------------- Media queries -------------*/
 @media only screen and (max-width:575px){
     .header li{
