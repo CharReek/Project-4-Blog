@@ -55,12 +55,18 @@
             <img class="swiper-slide" src="https://res.cloudinary.com/chazza/image/upload/v1653303136/d5opwqtblbriexqxij32.jpg" alt="">
             <img class="swiper-slide"src="https://res.cloudinary.com/chazza/image/upload/v1653303117/ccndflftw8hzs6b1wvuw.jpg" alt="">
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 </div>
 <script>
     const swiper = new Swiper('.swiper',{
         direction: 'horizontal',
         loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
     })
 </script>
 {%endblock%}
