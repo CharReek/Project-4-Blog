@@ -1,4 +1,5 @@
 # Damsel in Dior
+Damsel in dior is a blog dedicated to all things fashion! It gives users a chance to get into 
 
 # Table of Contents
 
@@ -6,6 +7,8 @@
 # UX
 
 # Features 
+## Future Features
+Going forward i would like to add in a feature so that users can upload images to the lookbook page, that way the lookbook page become a community page where people can upload images and give others feedback on an outfit that has been posted. This will be the equivilent of sending outfit pictures to your friends! This would be a great way for users to interact with each other and gain style tips and inspiration.I would then tie this into a profile page so that users can manage what images / comments they have posted and edit any information such as an email or password. this woul give users the option to add and remove any images they no longer want avaliable with 
 
 
 
