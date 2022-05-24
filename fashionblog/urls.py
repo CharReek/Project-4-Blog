@@ -21,4 +21,4 @@ urlpatterns = [
     path('', include('blog.urls'), name='blog_urls'),
     path('accounts/', include('allauth.urls')),
     path('lookbook/', include('lookbook.urls'), name='lookbook_urls'),
-]
+] +  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
