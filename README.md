@@ -5,44 +5,52 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 
 
 # UX
+### User stories
+### development plans 
+### Structure
+### Skeleton 
+### Design
+
 
 # Features 
-### Navigation Bar 
+
+## Navigation Bar 
 The navigation bar is there to help users get around the site easily. This is always at the top so that views can always use it. The navigation bar is fully responsive and when it shriks it goes into a collapsable nav bar. This is great for moblie users. The menu also changed depending on if the user is logged in. If the user is not logged in the nav bar will show 'register' 'login'. Once the user is logged in the nav bar will change to 'logout'. 
-### Footer
+## Footer
 The footer is showed through out the entire sit, it has links to social media sites so users can keep up with whats going on on various different platform linked to the blog.
 
-### Blog Post Cards
+## Blog Post Cards
 Blog post cards are shown on the home page, this is due to it beign the main focus of the blog. The 4 most recent posts will show if there are over 4 post the page will paginate and add a next / previous button. The user then has the option to select what post they want to view. Each post has an image on the front that is a reference to what the post is about. I chose a colourful background to add something more to the page, this will also help catching the attention of the user making them want to intereact with the post. I also added a title that on hover/ click has a line animation underline the text, this lets the user knwo where on the page they are looking at and helps highlight the post more. 
 
-### Blog posts
+## Blog posts
 All blog posts follow the same layout in order to keep the site uniformed and make it easier for the user to navigate. The title, date and creater are at the top of the page, this shows the user when and who it was posted by before they continue reading. 
 
-### Whats hot 
+## Whats hot 
 This is an image slider that showcases products that are currently on trend / popular that users may be intrested in. If a user likes an item it will taken them to a website that sells the product. I decided to impliment this feature as there is nothing worse than loving a product on a blog and not being able to find where it is from! The swiper also adds an interactive feature to the page. 
 
-### Lookbook Cards
+## Lookbook Cards
 The lookbook showcases a variety of different images of outfits, this way the user can just browse though for inspiration with out having to click anything. If the user would liek to know more they can click the image and it will take them to a blog post that has all the outfit details. Giving them the option to find where any items are from.
 
-### Lookbook Posts
+## Lookbook Posts
 These are present for users who would like to know the outfit details for anything posted via lookbook. It follows the same structure as the blog post so that it is easy for users to navigate. 
 
-### Comment section 
+## Comment section 
 Both the blog post and lookbook post have a comments section at the bottom that those who are register can use to leave comments. This feature makes it so that other users have a way to communicate. This also opens up a disscusssion about the post and can help offer stylign tips/ hacks. The comments need to be aproved by an admin, i have done this so any comments that are no appropraite can be declined. This will help keep users on the site safe.
 
-### Register 
+## Register 
 This feature allows new user to register for an account so that they can leave comments on posts. 
 
-### Login 
+## Login 
 This allows users to log into their accoutn so that they can comment on posts 
 
-### Logout
+## Logout
 This allows users to sign out of their account. 
 
 ## Future Features
 
 Going forward i would like to add in a feature so that users can upload images to the lookbook page, that way the lookbook page become a community page where people can upload images and give others feedback on an outfit that has been posted. This will be the equivilent of sending outfit pictures to your friends! This would be a great way for users to interact with each other and gain style tips and inspiration.I would then tie this into a profile page so that users can manage what images / comments they have posted and edit any information such as an email or password. This would give users the option to add and remove any images they no longer want avaliable with in the lookbook.
 
+# Issues & Bugs
 
 # Technoligies used 
 * HTML 

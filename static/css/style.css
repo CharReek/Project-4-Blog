@@ -137,6 +137,10 @@ a {
     margin: 10px;
     text-decoration: underline solid 3px #ccd5ae;
 }
+.page-link{
+    background-color: #ccd5ae;
+    color: black;
+}
 /* ----------- Swiper styling -------- */
 .swiper {
     width: 70%;
@@ -321,6 +325,11 @@ label.requiredField{
     transform-origin: left;
     transform: scaleX(1);
 } 
+.page-link:hover{
+    color: #ccd5ae;
+    background-color: black;
+
+}
 /* ---------------- Media queries -------------*/
 @media only screen and (max-width:575px){
     .header li{
