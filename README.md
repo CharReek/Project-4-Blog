@@ -9,14 +9,18 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 ### Site User 
  1. As a site user i can look at a paginate list of blog posts / images so that i can choose which one i want to look at.  
  2. As a site user i can see the date that a blog post was made so that i can keep up to date on current trends and read the most up to date blog posts.
- 3. As a site user i can click on a selected post so that i can read the blog post.
+ 3. As a site user i can click on a selected post so that i can read the blog post.#
  4. As a site user i can comment on a post so that i can be involved in the conversation and offer my opinion. 
  5. As a site user i can view comments on posts so that i can see other peoples opinions. 
  6. As a site user i can see what items are trending so that i can keep up with the latest trends
+ 7. As a site user i can register for an account so that i can leave comments on posts 
+ 8. As a site user i can sign in to an excisting account so that i can comment on posts 
+ 9. As a site user i can sign out of my account 
+
 ### Admin
-1. 
-2. 
-3. 
+1. As a admin i can approve comments so i can make the blog a safe place for all users 
+2. As a admin i can draft blog posts so that i can draft a post before i want to post it 
+3. As a admin i can edit, view and delete post so that i can change anything that maybe needed or delete the post.
 
 ### development plans 
 ### Structure
