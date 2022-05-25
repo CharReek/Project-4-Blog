@@ -15,18 +15,24 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
  6. As a site user i can see what items are trending so that i can keep up with the latest trends
  7. As a site user i can register for an account so that i can leave comments on posts 
  8. As a site user i can sign in to an excisting account so that i can comment on posts 
- 9. As a site user i can sign out of my account 
+ 9. As a site user i can sign out of my account.
 
 ### Admin
 1. As a admin i can approve comments so i can make the blog a safe place for all users 
 2. As a admin i can draft blog posts so that i can draft a post before i want to post it 
 3. As a admin i can edit, view and delete post so that i can change anything that maybe needed or delete the post.
 
-### development plans 
+### Development plans 
 ### Structure
 ### Skeleton 
 ### Design
+* I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
 
+## Colour 
+* I stuck to a very basic colour pallet to keep the blog clean. I went for black and white as these are contrasting colours and used #ccd5ae as a accent colour. I used the accent colour for the header and footer so that they stand out from the rest of the blog. I also used this colour for thing that are underlined to give it a contrast from the text colour. 
+## Typlography 
+
+## Images
 
 # Features 
 
