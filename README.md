@@ -25,7 +25,7 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 ### Development plans 
 ### Structure
 ### Skeleton 
-### Design
+# Design
 * I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
 
 ## Colour 
@@ -92,6 +92,28 @@ Going forward i would like to add in a feature so that users can upload images t
 
 ## Manual Testing 
 
+## Nav Bar 
+All parts of the nav bar work as expected and is responsive on all screen sizes. The Hover effect change to on click events on mobile devices. On smaller devices the nav bar collapses to the right hand side, once clicked it drops down to show all items on the menu. ALl links and animations work as expected on all devices.
+
+## Footer
+The footer works as required all links are take you to a new page when clicked as expected. The icons stay centeral on all size devices. 
+
+## Home Page Posts
+I have tested the home page while working on the project. All animations and tranformation work as expected to the time frame expected. All the home page links take you to the expected place and do not bring up any errors. The blog posts are responsive as expected they shink down to an appropriate size depending on the device you are on.
+
+## Swiper
+I found no issue when testing the slider, it works as needed with out any flaws. The images slide at the correct timing and both the next and previous button work with out any issues. the slider can also be dragged if you are wanting to go through a few images at once. All of the image link as required and open up on a new tab so that the user dosent have to leave the blog site.This all works as needed. 
+
+## Next/Previous page 
+To test this i added test post to ensure that that buttons showed where i needed them and worked efficiently. This worked as ecpected and it push the older post to the next page and add the new post at the front. I decided to add this feature so that if the blog was to progress and more posts were to be added they are accomodated for. 
+
+## Lookbook
+## Login 
+## Register 
+## Logout 
+## Links 
+## Responsiveness 
+
 # Deployment
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
 1. Create the heroku app
@@ -107,7 +129,7 @@ I took the following steps to deploy my project to heroku, i also referenced the
 * I used [Django central]( https://djangocentral.com/building-a-blog-application-with-django/) for help when it came to setting up views 
 * I used bootstrap documentation to help me understand bootstrap 5 
 
-### Image Credits 
+## Image Credits 
 * I created all the home page images myself using custome backgrounds and images i got from the below places 
   * The spring must have image is from [The Face](https://theface.com/style/versace-ss22-milan-fashion-week-womenswear-dua-lipa-naomi-campbell-gigi-hadid-fashion-style)
   * The what im loving now image is from [Celine](https://www.celine.com/en-int/celine-women/handbags/belt-bag/micro-belt-bag-in-grained-calfskin-189153ZVA.25VP.html) the blazer image in the article is from [Flannels](https://www.flannels.com/miu-miu-levantina-g-blazer-600409#colcode=60040906)
@@ -115,5 +137,5 @@ I took the following steps to deploy my project to heroku, i also referenced the
 * All images on the lookbook page are my own images 
 * Images for whats hot slider are from [Flannels](https://www.flannels.com)
 
-### Acknowledgements 
+## Acknowledgements 
 * A big thanks to the front end team that i work with they have help inspired me and given me some great ideas on what features to impliment! 

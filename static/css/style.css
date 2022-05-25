@@ -140,6 +140,8 @@ a {
 .page-link{
     background-color: #ccd5ae;
     color: black;
+    border-radius: 25px;
+    border: black solid 2px;
 }
 /* ----------- Swiper styling -------- */
 .swiper {
