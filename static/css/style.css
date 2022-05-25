@@ -243,6 +243,9 @@ label.requiredField{
     text-decoration: underline solid 1px #ccd5ae;
 }
 
+.comment-link{
+    text-decoration: underline 2px #ccd5ae;
+}
 /* ------------- lookbook  ---------------*/
 
 .row.content{

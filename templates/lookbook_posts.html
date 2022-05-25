@@ -65,6 +65,8 @@
                     </div>
                     <button type="submit" class="btn btn-signup submit-btn">Submit</button>
                 </form>
+                {% else %}
+                <p> <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link"href="{% url 'account_signup' %}">Register</a> to get involved in the conversation </p>
                 {% endif %}
                 {% endif %}
             </div>
