@@ -5,7 +5,19 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 
 
 # UX
-### User stories
+## User stories
+### Site User 
+ 1. As a site user i can look at a paginate list of blog posts / images so that i can choose which one i want to look at.  
+ 2. As a site user i can see the date that a blog post was made so that i can keep up to date on current trends and read the most up to date blog posts.
+ 3. As a site user i can click on a selected post so that i can read the blog post.
+ 4. As a site user i can comment on a post so that i can be involved in the conversation and offer my opinion. 
+ 5. As a site user i can view comments on posts so that i can see other peoples opinions. 
+ 6. As a site user i can see what items are trending so that i can keep up with the latest trends
+### Admin
+1. 
+2. 
+3. 
+
 ### development plans 
 ### Structure
 ### Skeleton 
@@ -46,7 +58,7 @@ This allows users to log into their accoutn so that they can comment on posts
 ## Logout
 This allows users to sign out of their account. 
 
-## Future Features
+# Future Features
 
 Going forward i would like to add in a feature so that users can upload images to the lookbook page, that way the lookbook page become a community page where people can upload images and give others feedback on an outfit that has been posted. This will be the equivilent of sending outfit pictures to your friends! This would be a great way for users to interact with each other and gain style tips and inspiration.I would then tie this into a profile page so that users can manage what images / comments they have posted and edit any information such as an email or password. This would give users the option to add and remove any images they no longer want avaliable with in the lookbook.
 
@@ -62,6 +74,8 @@ Going forward i would like to add in a feature so that users can upload images t
 * Font Awesome 
 
 # Testing 
+
+## Manual Testing 
 
 # Deployment
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
