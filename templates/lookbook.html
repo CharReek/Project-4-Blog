@@ -5,9 +5,9 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <div class="row blog-layout-main">
+            <div class="row blog-layout-main lookbook-main">
                 {% for post in post_list %}
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="card mb-3 border-0">
                             <div class="card-body blog-post-home">
                                 <a href="{% url 'lookbook_post_detail' post.slug  %}"  class="post-link">

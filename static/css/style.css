@@ -261,6 +261,9 @@ label.requiredField{
     height: 60%;
     width: auto;
 }
+.lookbook-main{
+    padding: 30px 10px 0;
+}
 
 /* -------------- pseudo classes --------------*/
 
