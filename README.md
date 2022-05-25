@@ -22,9 +22,11 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 2. As a admin i can draft blog posts so that i can draft a post before i want to post it 
 3. As a admin i can edit, view and delete post so that i can change anything that maybe needed or delete the post.
 
-### Development plans 
-### Structure
-### Skeleton 
+## Development plans 
+## Structure
+## Skeleton 
+
+
 # Design
 * I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
 
@@ -131,8 +133,14 @@ These all return what was expected which was not letting the form be completed.
 Everything on the sign out page function as expected and is responsive. 
 
 ## Comments 
-As expected the user can not submit a comment with out signing in first. 
+As expected the user can not submit a comment with out signing in first. The user will see a message that asks them to sign in or register to leave a comment i have tested all these links and they lead to the relevant pages. 
 
+Logged in 
+I tested the comment section when users are logged in. This shows a form box. i tested the following: 
+* Clicking sumbit with an empty text field 
+* Leaving the page with out submitting the comment
+
+Once comments are approved by the admin they can be seen on the post. i tested to make sure that admins had this abilty to both approve and decline comments.  
 
 ## Links 
 All links work as expected across all the pages with out any issues. Those that are required to bring up pages in a new tab perform as needed. the link hover/ on click effects all work as needed. 
