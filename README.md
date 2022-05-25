@@ -29,10 +29,15 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 * I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
 
 ## Colour 
-* I stuck to a very basic colour pallet to keep the blog clean. I went for black and white as these are contrasting colours and used #ccd5ae as a accent colour. I used the accent colour for the header and footer so that they stand out from the rest of the blog. I also used this colour for thing that are underlined to give it a contrast from the text colour. 
-## Typlography 
+* I stuck to a very basic colour pallet to keep the blog clean. I went for black and white as these are contrasting colours and used #ccd5ae as a accent colour. I used the accent colour for the header and footer so that they stand out from the rest of the blog. I also used this colour for thing that are underlined to give it a contrast from the text colour.
+
+## Typography 
+* I went for a very clean cut font to go with the minimalistic design. I went with Open Sans for the body text as this is a very clear font that sint too thick that it gets mixed up with a header. For the headers i went with Oswald this was due to it beign a thicker clean cut font. It is easy to read and contrasts with the body font.
 
 ## Images
+* For my home page imagery i choose to go for a mix of product images and runway images. I then added a distored background in order to make the main image stand out and to add some more colour and interest to the homepage. By distorting the image and using it as the background the colours match the images perfectly i then added a noise filter on top of it so that the main image stands out.
+* The images for the whats hot section i decided to keep very basic as to not distract from the product. 
+* Lookbook images are all my own images, i choose these as you could see the outfit fully which is the goal of the page. 
 
 # Features 
 
