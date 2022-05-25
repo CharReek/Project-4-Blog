@@ -22,8 +22,33 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 2. As a admin i can draft blog posts so that i can draft a post before i want to post it 
 3. As a admin i can edit, view and delete post so that i can change anything that maybe needed or delete the post.
 
-## Development plans 
-## Structure
+# Development plans 
+In order to help me achieve my goal of creating a working blog that was easy to read and use, i spent time researching other fashion blogs. This was really helped me on deciding what feautures i wanted to impliment and gave me an idea of what i did not want from a blog. I have credited the blogd that gave me inspiration in the credits section. 
+
+## Site aims 
+My main aim was to create an easy to use blog where like minded individuals can share and find fashion related news, tips, advice etc. Finding your own style is difficult, this blog will help someone who is looking for a new style to explore not only what is trending but other people style. There is nothing worse than when you see someone on instagram in something you love but can not find it online. This is where the idea for the lookbook came from.
+
+* Roles
+
+   * Admin
+   * User 
+
+* Demographic 
+
+   * Fashion lovers 
+   * People who are looking to expand their style 
+   * People who are wanting inspiration 
+
+* The website needs to let users be able to:
+
+   * Create and set up an account 
+   * Comment on a post 
+
+* The website needs to let admins be able to:
+
+   * Approve comments 
+   * Draft and Publish posts
+
 ## Skeleton 
 
 
@@ -92,25 +117,25 @@ Going forward i would like to add in a feature so that users can upload images t
 
 ## Manual Testing 
 
-## Nav Bar 
+### Nav Bar 
 All parts of the nav bar work as expected and is responsive on all screen sizes. The Hover effect change to on click events on mobile devices. On smaller devices the nav bar collapses to the right hand side, once clicked it drops down to show all items on the menu. ALl links and animations work as expected on all devices.
 
-## Footer
+### Footer
 The footer works as required all links are take you to a new page when clicked as expected. The icons stay centeral on all size devices. 
 
-## Home Page Posts
+### Home Page Posts
 I have tested the home page while working on the project. All animations and tranformation work as expected to the time frame expected. All the home page links take you to the expected place and do not bring up any errors. The blog posts are responsive as expected they shink down to an appropriate size depending on the device you are on.
 
-## Swiper
+### Swiper
 I found no issue when testing the slider, it works as needed with out any flaws. The images slide at the correct timing and both the next and previous button work with out any issues. the slider can also be dragged if you are wanting to go through a few images at once. All of the image link as required and open up on a new tab so that the user dosent have to leave the blog site.This all works as needed. 
 
-## Next/Previous page 
+### Next/Previous page 
 To test this i added test post to ensure that that buttons showed where i needed them and worked efficiently. This worked as ecpected and it push the older post to the next page and add the new post at the front. I decided to add this feature so that if the blog was to progress and more posts were to be added they are accomodated for. 
 
-## Lookbook
+### Lookbook
 I tested the lookbook through out the project to ensure that any issues could be sorted as i was creating the page. All links, animations and transformations work as expected. The page is responsive and shrinks down to the correct size depending on the device. 
 
-## Login
+### Login
 The login function all works expected. I performed the follwoing tests:
 * Logged in with an incorrect username 
 * Tried to log in with a incorrect password
@@ -119,7 +144,7 @@ These all returned by not letting the user sumbit the form.
 
 * Checked the remember me button and then logged out and went back to the sign in page
 
-## Register 
+### Register 
 I performed mutiple different actions to ensure that the register function performed as expected. This included:
 * Using an invalid email address that does not contain and '@' sign 
 * Using a username that has already been signed up
@@ -129,10 +154,10 @@ I performed mutiple different actions to ensure that the register function perfo
 * Trying to use a password that dosent match 
 These all return what was expected which was not letting the form be completed. 
 
-## Logout 
+### Logout 
 Everything on the sign out page function as expected and is responsive. 
 
-## Comments 
+### Comments 
 As expected the user can not submit a comment with out signing in first. The user will see a message that asks them to sign in or register to leave a comment i have tested all these links and they lead to the relevant pages. 
 
 Logged in 
@@ -142,19 +167,70 @@ I tested the comment section when users are logged in. This shows a form box. i 
 
 Once comments are approved by the admin they can be seen on the post. i tested to make sure that admins had this abilty to both approve and decline comments.  
 
-## Links 
+### Links 
 All links work as expected across all the pages with out any issues. Those that are required to bring up pages in a new tab perform as needed. the link hover/ on click effects all work as needed. 
 
 # Issues & Bugs
+*Bug* - One issue i had was that when i was deploying it to heroku the CSS was not loading in.
+* *The solution* - I changed  Debug from True to False
+ 
+
 
 # Deployment
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
-1. Create the heroku app
-2. Sync up the Postgres dadabase
-3. Create the settings.py file
-4. Sync Cloudinary 
-5. Deploy to heroku
+Before you begin ensure you have any libaries you may need installed
 
+1. Login to [Heroku](https://dashboard.heroku.com/login) and Create a new App
+
+2. Name the app and selec the region closest to you - Note the app name has to be unique
+3. Then press Create App
+
+4. Go to the Resources tab (This can be found in your heroku tabs next to overview)
+
+5. Once you are on the page search for Heroku Postgres in the search tab - This is your database 
+
+6. Go to the settings tab
+
+* Important - If these steps are not followed your project may not deploy correctly. 
+
+7. Scroll down the page to config vars and the click on Reveal config vars. 
+
+* This is where you database url is stored, this is the connection to your database. This must be stored with in your env.py file. Your env.py file is added to your git ignore file due to it contiaining secret environment variables. 
+
+8. You will then need to create a secret key in the env.py folder. 
+
+9. Once you ahve done this you will need to add the secret key to your config vars on heroku.
+
+10. When you have completed these steps go to your setting.py file and import the below:
+
+* `os `
+* `dj_database_url`
+* `if os.path.isfile('env.py):`
+    * `import env`
+11. After this you will need to replace the secret key you have (Due to it being insecure) with `os.environ.get('SECRET_KEY)`that we set in the env.py file
+
+12. When you have completed that go down to DATABASES. YOu will need to comment out the current code as this is not needed. Add the below code: 
+
+* `DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}`
+
+13. The next step is to connect to Cloudinary. This is where all the images will be stored. 
+
+14. Go to coloudinary and sign in, Once you have done this you will need to copy your API Environment Variable. 
+
+15. Add a new config var called CLOUDINARY_URL and paste in your API Environmant Variable
+
+16. You will also need to add one more config var which is DISABLE_COLLECTSTATIC with the value as 1 
+
+17. Once you have added the config vars you will need to add the below to your settings.py file
+
+* 
+  `MEDIA_URL = '/media/'`
+  `DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage' `
+
+  `STATIC_URL = '/static/'`
+  `STATICFILES_STORAGE ='cloudinary_storage.storage.StaticHashedCloudinaryStorage'`
+  `STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]`
+  `STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')`
 
 # Credits 
 * I Used [Atlantic Pacific](https://www.the-atlantic-pacific.com/) and [Hello fashion](https://www.hellofashionblog.com/) as inspitation for the style / layout of my blog
@@ -168,7 +244,7 @@ I took the following steps to deploy my project to heroku, i also referenced the
   * The what im loving now image is from [Celine](https://www.celine.com/en-int/celine-women/handbags/belt-bag/micro-belt-bag-in-grained-calfskin-189153ZVA.25VP.html) the blazer image in the article is from [Flannels](https://www.flannels.com/miu-miu-levantina-g-blazer-600409#colcode=60040906)
   * The designer gifts under £100 is from [Burberry](https://uk.burberry.com/make-up/) the images in the article are from [Dior](https://www.dior.com/en_gb/maison/objects/trinket-trays), [Flannels](https://www.flannels.com/heron-preston-embossed-heron-t-shirt-602521#colcode=60252103), [ Vivienne Westwood](https://www.viviennewestwood.com/en/men/jewellery/rings%C2%A0/westminster-ring-silver-64040016W004W004.html)
 * All images on the lookbook page are my own images 
-* Images for whats hot slider are from [Flannels](https://www.flannels.com)
+* Images for the whats hot slider are from [Flannels](https://www.flannels.com)
 
 ## Acknowledgements 
 * A big thanks to the front end team that i work with they have help inspired me and given me some great ideas on what features to impliment! 
