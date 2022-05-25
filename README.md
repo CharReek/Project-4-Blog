@@ -77,8 +77,6 @@ This allows users to sign out of their account.
 
 Going forward i would like to add in a feature so that users can upload images to the lookbook page, that way the lookbook page become a community page where people can upload images and give others feedback on an outfit that has been posted. This will be the equivilent of sending outfit pictures to your friends! This would be a great way for users to interact with each other and gain style tips and inspiration.I would then tie this into a profile page so that users can manage what images / comments they have posted and edit any information such as an email or password. This would give users the option to add and remove any images they no longer want avaliable with in the lookbook.
 
-# Issues & Bugs
-
 # Technoligies used 
 * HTML 
 * CSS
@@ -108,11 +106,38 @@ I found no issue when testing the slider, it works as needed with out any flaws.
 To test this i added test post to ensure that that buttons showed where i needed them and worked efficiently. This worked as ecpected and it push the older post to the next page and add the new post at the front. I decided to add this feature so that if the blog was to progress and more posts were to be added they are accomodated for. 
 
 ## Lookbook
-## Login 
+I tested the lookbook through out the project to ensure that any issues could be sorted as i was creating the page. All links, animations and transformations work as expected. The page is responsive and shrinks down to the correct size depending on the device. 
+
+## Login
+The login function all works expected. I performed the follwoing tests:
+* Logged in with an incorrect username 
+* Tried to log in with a incorrect password
+* Tried to log in with a username and password that has not been registered
+These all returned by not letting the user sumbit the form.
+
+* Checked the remember me button and then logged out and went back to the sign in page
+
 ## Register 
+I performed mutiple different actions to ensure that the register function performed as expected. This included:
+* Using an invalid email address that does not contain and '@' sign 
+* Using a username that has already been signed up
+* Using a password that is too weak 
+* Trying to sumbit with missing information 
+* Trying to use a password that is too short
+* Trying to use a password that dosent match 
+These all return what was expected which was not letting the form be completed. 
+
 ## Logout 
+Everything on the sign out page function as expected and is responsive. 
+
+## Comments 
+As expected the user can not submit a comment with out signing in first. 
+
+
 ## Links 
-## Responsiveness 
+All links work as expected across all the pages with out any issues. Those that are required to bring up pages in a new tab perform as needed. the link hover/ on click effects all work as needed. 
+
+# Issues & Bugs
 
 # Deployment
 I took the following steps to deploy my project to heroku, i also referenced the [Django Blog Cheatsheet](https://codeinstitute.s3.amazonaws.com/fst/Django%20Blog%20Cheat%20Sheet%20v1.pdf)
