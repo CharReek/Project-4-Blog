@@ -9,7 +9,7 @@ Damsel in dior is a blog dedicated to all things fashion! It gives users a chanc
 ### Site User 
  1. As a site user i can look at a paginate list of blog posts / images so that i can choose which one i want to look at.  
  2. As a site user i can see the date that a blog post was made so that i can keep up to date on current trends and read the most up to date blog posts.
- 3. As a site user i can click on a selected post so that i can read the blog post.#
+ 3. As a site user i can click on a selected post so that i can read the blog post.
  4. As a site user i can comment on a post so that i can be involved in the conversation and offer my opinion. 
  5. As a site user i can view comments on posts so that i can see other peoples opinions. 
  6. As a site user i can see what items are trending so that i can keep up with the latest trends
@@ -231,6 +231,25 @@ Before you begin ensure you have any libaries you may need installed
   `STATICFILES_STORAGE ='cloudinary_storage.storage.StaticHashedCloudinaryStorage'`
   `STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]`
   `STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')`
+
+18. After this you will need to tell Django where the templates will be stored. You will then need to change the template directory variable to 'DIRS':
+
+19. Then you will need to add in the allowed hosts into the settings.py file
+
+* `ALLOWED_HOSTS = ['YOUR-APP-NAME', 'localhost']`
+
+20. You will then need to creat a Procfile. This is so that heroku knows to run the project you will need to add the below: 
+* `web: gunicorn app-name.wsgi`
+
+21. Once you have completed the above step you need to go to the deploy tab in heroku. From here scroll down to Deployment method section. Follow the instruction to deploy your project with Heroku
+* Usually you can deploy your project by connecting it to github hwoever due to a breach they have suspended this. 
+
+22. When your project has deployed click the link in the terminal. This will bring you to your live deployed page. 
+
+23. Before you deploy for the final time you must ensure the below: 
+* Remove DISABLE_COLLECTSTATIC = 1 from the config vars 
+* Set debug to false
+
 
 # Credits 
 * I Used [Atlantic Pacific](https://www.the-atlantic-pacific.com/) and [Hello fashion](https://www.hellofashionblog.com/) as inspitation for the style / layout of my blog
