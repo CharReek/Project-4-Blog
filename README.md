@@ -1,8 +1,6 @@
 # Damsel in Dior
 Damsel in dior is a blog dedicated to all things fashion! It gives users a chance to get into 
 
-# Table of Contents
-
 
 # UX
 ## User stories
