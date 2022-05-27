@@ -2,7 +2,7 @@ body{
     font-size: 20px;
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 h1, 
 h2, 
@@ -48,7 +48,9 @@ a {
     text-align: right;
     float: right;
 }
-
+.navbar-links{
+    float: right;
+}
 .logo{
     text-decoration: underline 3px solid black;
 }
@@ -356,7 +358,16 @@ label.requiredField{
         justify-content: center;
     }
     
-    form#signup_form {
-    padding: 10px;
+    form#signup_form{
+        padding-top: 25px 0px;  
+    } 
+    
+    form#signup_form p{
+        margin: 10px;
+    } 
+    
+    form.login p {
+        margin: 10px;
+        padding: 25px 0px;
     }
 }
