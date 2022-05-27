@@ -94,7 +94,7 @@ a {
     padding-left: 40px;
 }
 
-/* ------------ blog contatiner ------------- */
+/* ------------ blog page ------------- */
 .blog-layout-main, 
 .blog-layout{
     justify-content: center;
@@ -150,6 +150,12 @@ a {
     color: black;
     border-radius: 25px;
     border: black solid 2px;
+}
+
+.header-image{
+    display: block;
+    margin: auto;
+    padding: 30px 0;
 }
 /* ----------- Swiper styling -------- */
 .swiper {
