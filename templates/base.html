@@ -30,21 +30,21 @@
             <div class="collapse navbar-collapse float-end" id="navbarCollapse">
                 <div class="navbar-nav"> 
                     <div class="nav-item">
-                    <a class="nav-link" href="{% url 'home' %}"> Home <i class="fa-solid fa-house"></i></a>
+                    <a class="nav-link" href="{% url 'home' %}"> Home</a>
                     </div>
                     <div class="nav-item">
-                    <a class="nav-link" href="{% url 'lookbook' %}"> LookBook <i class="fa-solid fa-camera"></i></a>
+                    <a class="nav-link" href="{% url 'lookbook' %}"> LookBook </a>
                     </div>
                     {% if user.is_authenticated %}
                     <div class="nav-item">
-                    <a class="nav-link" href="{% url 'account_logout' %}">Logout <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
                     </div>
                     {% else %}
                     <div class="nav-item">
-                    <a class="nav-link" href="{% url 'account_signup' %}">Register <i class="fa-solid fa-user"></i></a>
+                    <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
                     </div>
                     <div class="nav-item">
-                    <a class="nav-link" href="{% url 'account_login' %}">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                    <a class="nav-link" href="{% url 'account_login' %}">Login </a>
                     </div>
                     {% endif %}
                 </div>
