@@ -54,12 +54,6 @@ a {
 .logo{
     text-decoration: underline 3px solid black;
 }
-
-.header-container{
-    padding-top:20px;
-    text-align: right;
-    height: 300px;
-}
 .nav-link{
     margin-left: 50px;
 }
@@ -155,8 +149,11 @@ a {
 .header-image{
     display: block;
     margin: auto;
-    padding: 30px 0;
 }
+.header-container{
+    margin-bottom:400px;
+}
+
 /* ----------- Swiper styling -------- */
 .swiper {
     width: 70%;
