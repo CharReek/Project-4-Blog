@@ -68,7 +68,9 @@
                     <button type="submit" class="btn btn-signup submit-btn">Submit</button>
                 </form>
                 {% else %}
-                <p> <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link"href="{% url 'account_signup' %}">Register</a> to get involved in the conversation </p>
+                <p> 
+                    <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link" href="{% url 'account_signup' %}">Register</a> to get involved in the conversation 
+                </p>
                 {% endif %}
                 {% endif %}
             </div>
@@ -76,7 +78,9 @@
         <div class="col-md-4 mb-4 mt-3 lookbook-column">
             <h5> Like what you see?</h5>
             <p> All outfit details can be found in the lookbook</p>
-            <a href="{% url 'lookbook' %}"> <button class="btn submit-btn">Lookbook</button> </a>
+            <a href="{% url 'lookbook' %}">
+                 <button class="btn submit-btn">Lookbook</button>
+            </a>
         </div>
     </div>
 </div>
