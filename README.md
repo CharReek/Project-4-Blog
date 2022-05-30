@@ -121,7 +121,7 @@ This allows users to log into their accoutn so that they can comment on posts
 ![Login page](https://github.com/CharReek/Project-4-Blog/blob/main/media/Signinform.JPG "Login page")
 
 ### Logout
-This allows users to sign out of their account. 
+This allows users to sign out of their account, it asks for conformation incase they ahve accidentslly clicked the signout button
 ![Logout page](https://github.com/CharReek/Project-4-Blog/blob/main/media/Logout.JPG "Logout page")
 
 # Future Features
