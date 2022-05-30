@@ -22,9 +22,9 @@
     <div class="col m-4 pb-3">
         <div class="row justify-content-start">
             <div class="col-sm-12 align-self-center">
-                <p class="card-text">
+                <div class="card-text">
                     {{ post.content | safe }}
-                </p>
+                </div>
             </div>
         </div>
     </div>
@@ -75,7 +75,9 @@
         <div class="col-md-4 mb-4 mt-3 lookbook-column">
             <h5> Want to keep up to date with whats goign on? </h5>
             <p> Check out our blog posts </p>
-            <button class="btn submit-btn" href="{% url 'home' %}"> Home</button>
+            <form action="{% url 'home' %}" method="post"></form>
+            <button class="btn submit-btn"> Home</button>
+            </form>
         </div>
     </div>
 </div>
