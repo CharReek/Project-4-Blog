@@ -48,10 +48,15 @@ My main aim was to create an easy to use blog where like minded individuals can 
    * Draft and Publish posts
 
 ## Skeleton 
+### Home
 ![home skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/home.JPG "Home Skeleton Image")
+### Lookbook
 ![lookbook skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/lookbook.JPG "Lookbook Skeleton image")
+### Register 
 ![Register skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/register.JPG "Register Skeleton Image")
+### Sign Out 
 ![Signout skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/signout.JPG "Signout Skeleton Image")
+### Sign In 
 ![signin skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/signup.JPG "Signin skeleton image")
 
 # Design
