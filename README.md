@@ -194,6 +194,18 @@ Once comments are approved by the admin they can be seen on the post. i tested t
 ### Links 
 All links work as expected across all the pages with out any issues. Those that are required to bring up pages in a new tab perform as needed. the link hover/ on click effects all work as needed. 
 
+### W3C CSS Testing 
+All code was passed through w3c CSS validator testing with no errors. There was warning however these were from third party installments.
+### HTML check 
+All code was passed thought a HTML check validator testing, it returned no errors 
+
+### Lighthouse results
+#### Homepage
+![]("")
+
+#### Lookbook
+![]("")
+
 # Issues & Bugs
 *Bug* - One issue i had was that when i was deploying it to heroku the CSS was not loading in.
 * *The solution* - I changed  Debug from True to False
