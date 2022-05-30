@@ -68,17 +68,19 @@
                     <button type="submit" class="btn btn-signup submit-btn">Submit</button>
                 </form>
                 {% else %}
-                <p> 
+                <div> 
                     <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link" href="{% url 'account_signup' %}">Register</a> to get involved in the conversation 
-                </p>
+                </div>
                 {% endif %}
                 {% endif %}
             </div>
         </div>
         <div class="col-md-4 mb-4 mt-3 lookbook-column">
             <h5> Like what you see?</h5>
-            <h5> All outfit details can be found in the lookbook </h5>
-            <button class="btn submit-btn" href="{% url 'lookbook' %}"> Lookbook </button>
+            <p> All outfit details can be found in the lookbook </p>
+            <form action="{% url 'lookbook' %}" method="post">
+            <button class="btn submit-btn"> Lookbook </button>
+            </form>
         </div>
     </div>
 </div>

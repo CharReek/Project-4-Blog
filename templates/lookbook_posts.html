@@ -21,12 +21,11 @@
 <div class="container">
     <div class="col m-4 pb-3">
         <div class="row justify-content-start">
-            <!-- <div class="card-body"> -->
-                <div class="col-sm-12 align-self-center">
-                    <p class="card-text">
-                        {{ post.content | safe }}
-                    </p>
-                </div>
+            <div class="col-sm-12 align-self-center">
+                <p class="card-text">
+                    {{ post.content | safe }}
+                </p>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -66,14 +65,16 @@
                     <button type="submit" class="btn btn-signup submit-btn">Submit</button>
                 </form>
                 {% else %}
-                <p> <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link" href="{% url 'account_signup' %}">Register</a> to get involved in the conversation </p>
+                <div>
+                    <a class="comment-link" href="{% url 'account_login' %}"> Sign in </a> or <a class="comment-link" href="{% url 'account_signup' %}">Register</a> to get involved in the conversation 
+                </div>
                 {% endif %}
                 {% endif %}
             </div>
         </div>
         <div class="col-md-4 mb-4 mt-3 lookbook-column">
             <h5> Want to keep up to date with whats goign on? </h5>
-            <p> Check out our blog posts</p>
+            <p> Check out our blog posts </p>
             <button class="btn submit-btn" href="{% url 'home' %}"> Home</button>
         </div>
     </div>
