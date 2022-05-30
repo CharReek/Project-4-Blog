@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
     height: 100%;
 }
+
 h1, 
 h2, 
 h5{
@@ -75,7 +76,7 @@ a {
 /* ------------- Footer ------------- */
 
 .footer{
-    position: fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -83,6 +84,7 @@ a {
     border-top: 1px solid black;
     background-color: #ccd5ae;
 }
+
 .footer li{
     display: inline;
     text-decoration: none;
