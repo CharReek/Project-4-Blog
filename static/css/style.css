@@ -362,7 +362,7 @@ label.requiredField{
     }
     
     form#signup_form{
-        padding-top: 25px 0;  
+        padding-top: 25px;  
     } 
     
     form#signup_form p{
