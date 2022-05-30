@@ -101,6 +101,12 @@ All blog posts follow the same layout in order to keep the site uniformed and ma
 
 ![Blog Post](https://github.com/CharReek/Project-4-Blog/blob/main/media/Blog%20post.JPG "Blog Posts")
 
+### Blog post Edit / Delete 
+Blog posts can be edited by the user who posted them, this gived them the ability to change or delete the post from the front end of the blog 
+
+![Delete Post]("Delete Post")
+![Edit Post]("Edit Post")
+
 ### Whats hot 
 This is an image slider that showcases products that are currently on trend / popular that users may be intrested in. If a user likes an item it will taken them to a website that sells the product. I decided to impliment this feature as there is nothing worse than loving a product on a blog and not being able to find where it is from! The swiper also adds an interactive feature to the page. 
 
@@ -204,6 +210,13 @@ I tested the comment section when users are logged in. This shows a form box. i 
 * Leaving the page with out submitting the comment
 
 Once comments are approved by the admin they can be seen on the post. i tested to make sure that admins had this abilty to both approve and decline comments.  
+
+
+### Deleting Posts 
+I tested that this worked by creating mutiple test post under different logins to see if i could delete a post that was not created by that user. Once i was sure you could not delete anothers post i created a test post and signed in as the user to delete this. Everything worked as expected and it took the user back to the homepage. 
+
+### Editing Posts 
+I tested this by creating a test post and going inot it as the user who created it to edit it. I made changed to the title, contect and excert and saved it.Everything worked as expected it took the user back to the blog post with the updated change
 
 ### Links 
 All links work as expected across all the pages with out any issues. Those that are required to bring up pages in a new tab perform as needed. the link hover/ on click effects all work as needed. 
@@ -311,7 +324,7 @@ Before you begin ensure you have any libaries you may need installed
 * I used code insitutes walk through for insallign all auth
 * I used [Django central]( https://djangocentral.com/building-a-blog-application-with-django/) for help when it came to setting up views 
 * I used bootstrap documentation to help me understand bootstrap 5 
-https://legionscript.medium.com/building-a-social-media-site-with-python-and-django-part-4-edit-delete-posts-add-comments-8e6ca1ef0441
+* I Used [Legion Script](https://legionscript.medium.com/building-a-social-media-site-with-python-and-django-part-4-edit-delete-posts-add-comments-8e6ca1ef0441) to help me set up the edit and delete functionality 
 
 ## Image Credits 
 * I created all the home page images myself using custome backgrounds and images i got from the below places 
@@ -323,3 +336,4 @@ https://legionscript.medium.com/building-a-social-media-site-with-python-and-dja
 
 ## Acknowledgements 
 * A big thanks to the front end team that i work with they have help inspired me and given me some great ideas on what features to impliment! 
+* Thanks a bunch to Daisy my mentor for keeping my calm during my panics and always believing in me!!!
