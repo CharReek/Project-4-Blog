@@ -37,6 +37,10 @@ a {
     text-decoration: underline solid #ccd5ae;
 }
 
+.bottom-section{
+    margin: 30px 0;
+}
+
 
 /* ------------------ Navigation --------------*/
 .navbar{
@@ -238,6 +242,7 @@ label.requiredField{
 }
 .comment-section{
     text-align: center;
+    padding-bottom: 80px;
 }
 .comment-container{
     border: 1px solid black;
@@ -247,6 +252,7 @@ label.requiredField{
 
 .lookbook-column{
     text-align: center;
+    padding-bottom: 80px;
 }
 .lookbook-column p{
     margin: 20px 0px;
@@ -274,7 +280,6 @@ label.requiredField{
 
 .card-img, .card-img-top{
     height: 60%;
-    width: auto;
 }
 
 /* -------------- pseudo classes --------------*/
