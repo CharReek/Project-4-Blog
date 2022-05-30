@@ -49,6 +49,10 @@ My main aim was to create an easy to use blog where like minded individuals can 
 
 ## Skeleton 
 ![home skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/home.JPG "Home Skeleton Image")
+![lookbook skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/lookbook.JPG "Lookbook Skeleton image")
+![Register skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/register.JPG "Register Skeleton Image")
+![Signout skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/signout.JPG "Signout Skeleton Image")
+![signin skeleton image](https://github.com/CharReek/Project-4-Blog/blob/main/media/signup.JPG "Signin skeleton image")
 
 # Design
 * I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
