@@ -311,6 +311,7 @@ Before you begin ensure you have any libaries you may need installed
 * I used code insitutes walk through for insallign all auth
 * I used [Django central]( https://djangocentral.com/building-a-blog-application-with-django/) for help when it came to setting up views 
 * I used bootstrap documentation to help me understand bootstrap 5 
+https://legionscript.medium.com/building-a-social-media-site-with-python-and-django-part-4-edit-delete-posts-add-comments-8e6ca1ef0441
 
 ## Image Credits 
 * I created all the home page images myself using custome backgrounds and images i got from the below places 
