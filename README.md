@@ -201,10 +201,10 @@ All code was passed thought a HTML check validator testing, it returned no error
 
 ### Lighthouse results
 #### Homepage
-![]("")
+![Lighthouse home page results](https://github.com/CharReek/Project-4-Blog/blob/main/media/lighthouse-results.JPG "Lighthouse home page results")
 
 #### Lookbook
-![]("")
+![Lighthouse Lookbook results](https://github.com/CharReek/Project-4-Blog/blob/main/media/lighthouse-results.JPG "Lighthouse Lookbook results")
 
 # Issues & Bugs
 *Bug* - One issue i had was that when i was deploying it to heroku the CSS was not loading in.
@@ -212,7 +212,9 @@ All code was passed thought a HTML check validator testing, it returned no error
 
 *Bug*- Lookpook page not connecting after creation
 * *The solution* - I had to add a url pattern in the urls.py file
- 
+
+*Issues* - I had an issue with my images being too large that it was slwoign the speed of the website down 
+* *The Solution* - To resolve this issue i put the image through tiny.png
 
 
 # Deployment

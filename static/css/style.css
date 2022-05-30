@@ -3,6 +3,7 @@ body{
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    height: 100%;
 }
 h1, 
 h2, 
@@ -70,7 +71,7 @@ a {
 /* ------------- Footer ------------- */
 
 .footer{
-    position: sticky;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
