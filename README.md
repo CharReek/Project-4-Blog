@@ -1,6 +1,5 @@
 # Damsel in Dior
-Damsel in dior is a blog dedicated to all things fashion! It gives users a chance to get into 
-
+Damsel in dior is a blog dedicated to all things fashion! It gives users a chance to keep up to date with the latest syle gossip and get outfit inspiration from the lookbook. Users can interact with the post and each other by giving an opinion in the comments section.
 
 # UX
 ## User stories
@@ -62,13 +61,13 @@ My main aim was to create an easy to use blog where like minded individuals can 
 # Design
 * I went for a minimalistic design as i personally find that blogs can be very overwhelming if there is too much resent expecially on the home page. Due to this i decided to keep it very basic as to not overload that page. I choose to only have 4 blog posts presents on the home screen to ensure that users can find the most up to date post as soon as they load up the blog.
 
-## Colour 
+### Colour 
 * I stuck to a very basic colour pallet to keep the blog clean. I went for black and white as these are contrasting colours and used #ccd5ae as a accent colour. I used the accent colour for the header and footer so that they stand out from the rest of the blog. I also used this colour for thing that are underlined to give it a contrast from the text colour.
 
-## Typography 
+### Typography 
 * I went for a very clean cut font to go with the minimalistic design. I went with Open Sans for the body text as this is a very clear font that sint too thick that it gets mixed up with a header. For the headers i went with Oswald this was due to it beign a thicker clean cut font. It is easy to read and contrasts with the body font.
 
-## Images
+### Images
 * For my home page imagery i choose to go for a mix of product images and runway images. I then added a distored background in order to make the main image stand out and to add some more colour and interest to the homepage. By distorting the image and using it as the background the colours match the images perfectly i then added a noise filter on top of it so that the main image stands out.
 * The images for the whats hot section i decided to keep very basic as to not distract from the product. 
 * Lookbook images are all my own images, i choose these as you could see the outfit fully which is the goal of the page. 
@@ -77,8 +76,13 @@ My main aim was to create an easy to use blog where like minded individuals can 
 
 ### Navigation Bar 
 The navigation bar is there to help users get around the site easily. This is always at the top so that views can always use it. The navigation bar is fully responsive and when it shriks it goes into a collapsable nav bar. This is great for moblie users. The menu also changed depending on if the user is logged in. If the user is not logged in the nav bar will show 'register' 'login'. Once the user is logged in the nav bar will change to 'logout'. 
+
 ### Footer
 The footer is showed through out the entire sit, it has links to social media sites so users can keep up with whats going on on various different platform linked to the blog.
+
+### Homepage header image
+Before users see the post they will see a home page header, this hows this site name with some images that help show a variety of different items giving the user an idea on what the site is about.
+
 
 ### Blog Post Cards
 Blog post cards are shown on the home page, this is due to it beign the main focus of the blog. The 4 most recent posts will show if there are over 4 post the page will paginate and add a next / previous button. The user then has the option to select what post they want to view. Each post has an image on the front that is a reference to what the post is about. I chose a colourful background to add something more to the page, this will also help catching the attention of the user making them want to intereact with the post. I also added a title that on hover/ click has a line animation underline the text, this lets the user knwo where on the page they are looking at and helps highlight the post more. 
