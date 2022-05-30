@@ -160,6 +160,11 @@ a {
 .header-container{
     margin: 30px 0;
 }
+.fa-edit,
+.fa-trash{
+padding: 10px;
+}
+
 
 /* ----------- Swiper styling -------- */
 .swiper {

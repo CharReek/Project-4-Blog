@@ -10,8 +10,10 @@
                 {{ post.title }}</h1>
             <h5 class="post-subtitle">{{ post.author }} | {{ post.created_on }}</h5>
             {% if request.user == post.author %}
+            <div class="edit-delete">
                 <a href="{% url 'edit_post' post.pk post.slug %}" ><i class="far fa-edit"></i></a>
                 <a href="{% url 'delete_post' post.pk post.slug %}"><i class="fas fa-trash"></i></a>
+            </div>
             {% endif %}
         </div>
     </div>
